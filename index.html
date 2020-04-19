@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+
+<head>
+    <title>Temperature Calculator</title>
+    <!--<link href="reset.css" rel="stylesheet">-->
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+
+            <h1>Temperature Calculator</h1>
+
+            <div class="inputs">
+                <div class="input-box">
+                    <label for="celsius">Celsius</label>
+                    <input id="celsius" type="number" />
+                </div>
+ 
+                <div class="input-box">
+                    <label for="kelvin">Kelvin</label>
+                    <input id="kelvin" type="number" />
+                </div>
+
+                <button id="convertC">C to K</button>
+                <button id="convertK">K to C</button>
+            
+            </div>
+
+           
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Conversion</th>
+                        <th>degC</th>
+                        <th>K</th>
+                    </tr>
+                </thead>
+                <tbody id="data-table">
+
+                </tbody>
+            </table>
+
+        </div>
+
+
+    </main>
+
+<script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+html {
+    font-size: 16px;
+}
+
+.container {
+    background-color: #ABE6FF;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    padding: 2rem 0;
+    width: 400px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.input-box {
+    width: 50%;
+}
+
+input {
+    margin: 10px;
+    width: 5rem;
+}
+
+button {
+    background-color: #FFE79E;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    margin: 2rem auto;
+    padding: 0.25em 0.5em;
+}
+
+table {
+    margin: 0 auto;
+    width: 45%;
+}
+
+th, td {
+    text-align: center;
+}
